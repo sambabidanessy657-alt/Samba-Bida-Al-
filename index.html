@@ -12,5 +12,11 @@
 
   <input type="text" placeholder="اكتب رسالتك هنا">
   <button>إرسال</button>
+  <script>
+document.querySelector("button").onclick = function() {
+  const input = document.querySelector("input");
+  document.getElementById("response").textContent = "أنت كتبت: " + input.value;
+};
+  </script>
 </body>
 </html>
