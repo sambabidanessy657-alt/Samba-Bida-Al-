@@ -1,22 +1,19 @@
+HTML
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Samba Bida AI</title>
-</head>
 
-<body>
-  <p id="response"></p>
-  <h1>🤖 Samba Bida AI</h1>
-  <p>مرحبًا! أنا مساعدك الذكي.</p>
-
-  <input type="text" placeholder="اكتب رسالتك هنا">
-  <button>إرسال</button>
-  <script>
-document.querySelector("button").onclick = function() {
-  const input = document.querySelector("input");
-  document.getElementById("response").textContent = "أنت كتبت: " + input.value;
-};
-  </script>
-</body>
-</html>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0f172a, #1e3a8a);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
